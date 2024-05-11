@@ -25,25 +25,25 @@ Step 1: Pick your programming language
 
 The programming languages you can choose from are below. I am not restricting it but I strongly encourage you to choose a language you know very little about, so avoid Java and Python.
 
-C
-C++
-C#
-C Languages
-Java
-Python
-Rust
-PHP
-Ruby
-F#
-R
-Kotlin
-COBOL
-FORTRAN
-LISP
-ALGOL (any version)
-BASIC
-PL/I
-Any other language of your choice, but you must get approval from the instructor first.
+* C
+* C++
+* C#
+* C Languages
+* Java
+* Python
+* Rust
+* PHP
+* Ruby
+* F#
+* R
+* Kotlin
+* COBOL
+* FORTRAN
+* LISP
+* ALGOL (any version)
+* BASIC
+* PL/I
+* Any other language of your choice, but you must get approval from the instructor first.
 
 
 
