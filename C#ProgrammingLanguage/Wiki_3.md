@@ -8,7 +8,7 @@ Data types in C# are categorized into three primary groups: `Value Data Types`, 
 
 Value data types directly store variable values in memory and can accommodate both signed and unsigned literals. Signed integral types can handle negative and positive values, while unsigned types solely accommodate positive numbers. Integral types span 8-bit, 16-bit, 32-bit, and 64-bit values. Floating-point types, such as float and double, cater to decimal point values, with float representing 32-bit single-precision and double representing 64-bit double-precision floating point numbers. Additionally, the decimal type is adept at financial calculations, boasting 128-bit precision. Character types represent UTF-16 code units, and boolean types solely accept true or false values. 
 
-![alt text](image.jpg)
+![C#ProgrammingLanguage/CS.ValueDataType.png]C#ProgrammingLanguage/CS.ValueDataType.png)
 
 Reference data types, in contrast, store memory addresses rather than values directly. Examples include strings, which represent sequences of Unicode characters, and objects, which serve as the base class for all data types in C#.  
 
