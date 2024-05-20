@@ -1,8 +1,9 @@
-# CSharp ![alt text](CS.Logo.png)
+
+# C#
 
 C# programming language encompasses a rich variety of data types, expressions, and assignment statements, each serving a distinct purpose in software development. 
 
-**Data Types:**
+## Data Types
 
 Data types in C# are categorized into three primary groups: `Value Data Types`, `Reference Data Types`, and `Pointer Data Types`.  
 
@@ -31,7 +32,7 @@ Example:
     int* ptr = &number;
 ```
 
-**Expressions:**
+## Expressions
 
 Expressions in C# facilitate computations that yield values. They include Constant Expressions, Variable Expressions, Arithmetic Expressions, Relational Expressions, Logical Expressions, Bitwise Expressions, Assignment Expressions, Method Call Expressions, and Conditional Expressions. Each type of expression serves a specific computational purpose, from simple literal values to complex method calls. 
 
@@ -97,7 +98,7 @@ Examples:
 
 Understanding and effectively utilizing expressions are crucial for performing calculations, making decisions, and manipulating data within a program. 
 
-**Operators:**
+## Operators
 
 Operators enable developers to perform arithmetic calculations, compare values, combine conditions, manipulate binary data, and assign values to variables efficiently. Operators in C# are symbols or keywords that perform operations on operands. They define how operands are manipulated to produce a result. C# operators can be categorized based on their functionality and the number of operands they take. Functionally, they include Arithmetic Operators, Relational Operators, Logical Operators, Bitwise Operators, Assignment Operators, and the Conditional Operator. Additionally, they are classified based on the number of operands they take, including Unary Operators, Binary Operators, and Ternary Operators. Unary operators take one operand to perform the operation, binary operators take two operands, and the ternary operator takes three operands. 
 
