@@ -103,7 +103,7 @@ Operators enable developers to perform arithmetic calculations, compare values, 
 
 `Arithmetic operators` perform mathematical operations on operands, such as addition, subtraction, multiplication, division, and modulus.
 
-![alt text](image.jpg)
+![ArithmeticOps](CS.ArithmeticOperators.png)
 
 `Relational operators` facilitate comparisons between two values, returning true or false based on equality, inequality, or magnitude.  
 ![alt text](image.jpg)
