@@ -1,4 +1,4 @@
-# CSharp ![alt text](image.jpg)
+# CSharp ![alt text](CS.Logo.png)
 
 C# programming language encompasses a rich variety of data types, expressions, and assignment statements, each serving a distinct purpose in software development. 
 
@@ -106,16 +106,16 @@ Operators enable developers to perform arithmetic calculations, compare values, 
 ![ArithmeticOps](CS.ArithmeticOperators.png)
 
 `Relational operators` facilitate comparisons between two values, returning true or false based on equality, inequality, or magnitude.  
-![alt text](image.jpg)
+![RelationalOps](CS.RelationalOperators.png)
 
 `Logical operators` combine or negate conditions, including AND, OR, and NOT operations.  
-![alt text](image.jpg)
+![LogicalOps](CS.LogicalOperators.png)
 
 `Bitwise operators` operate at the bit level, performing operations like AND, OR, XOR, and complement.  
-![alt text](image.jpg)
+![BitwiseOps](CS.BitwiseOperators.png)
 
 `Assignment operators` assign values to variables, offering shorthand methods for operations like addition, subtraction, and bitwise operations.  
-![alt text](image.jpg)
+![AssignmentOps](CS.AssignmentOperators.png)
 
 Finally, the `conditional operator` is a ternary operator that returns one of two values based on the evaluation of a Boolean expression.  
 
