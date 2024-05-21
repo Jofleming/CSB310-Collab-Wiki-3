@@ -1,8 +1,8 @@
 **Team Wood:**
 
-Edale Miguel - Question 1 - 3
-Mycole Brown - Question 4 - 6
-Jordan Fleming - Question 7 - 8
+- Edale Miguel - Question 1 - 3
+- Mycole Brown - Question 4 - 6
+- Jordan Fleming - Question 7 - 8
 
 **Collaborative Wiki 3 - Programming Language Deep Dive**
 
