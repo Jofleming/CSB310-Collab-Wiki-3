@@ -1,3 +1,26 @@
+**Team Wood:**
+
+- Edale Miguel - Question 1 - 3
+- Mycole Brown - Question 4 - 6
+- Jordan Fleming - Question 7 - 8
+  
+
+
+**Collaborative Wiki 3 - Programming Language Deep Dive**
+
+Questions:
+
+1. Data Types (Chapter 6)
+2. Expressions (Chapter 7)
+3. Assignment Statements (Chapter 7)
+4. Statement-Level Control Structures (Chapter 8)
+5. Subprograms (Chapter 9 and 10)
+6. Abstract Data Types and Encapsulation Concepts (if there are any) (Chapter 11)
+7. Object-Oriented Programming (Chapter 12)
+8. Exception Handling and Event Handling (Chapter 14)
+
+
+![Logo](CS.Logo.png)
 # C#
 
 C# (pronounced "C-sharp") is a modern, versatile programming language developed by Microsoft. It was introduced in the early 2000s as part of the .NET framework. C# is designed to be simple, powerful, and easy to use, making it a popular choice for developing a wide range of applications, from web and mobile apps to desktop software and games. 
@@ -26,7 +49,7 @@ Data types in C# are categorized into three primary groups: `Value Data Types`, 
 
 Value data types directly store variable values in memory and can accommodate both signed and unsigned literals. Signed integral types can handle negative and positive values, while unsigned types solely accommodate positive numbers. Integral types span 8-bit, 16-bit, 32-bit, and 64-bit values. Floating-point types, such as float and double, cater to decimal point values, with float representing 32-bit single-precision and double representing 64-bit double-precision floating point numbers. Additionally, the decimal type is adept at financial calculations, boasting 128-bit precision. Character types represent UTF-16 code units, and boolean types solely accept true or false values. 
 
-![C#ProgrammingLanguage/CS.ValueDataType.png](C#ProgrammingLanguage/CS.ValueDataType.png)
+![ValueDataType](CS.ValueDataType.png)
 
 Reference data types, in contrast, store memory addresses rather than values directly. Examples include strings, which represent sequences of Unicode characters, and objects, which serve as the base class for all data types in C#.  
 
@@ -121,19 +144,19 @@ Operators enable developers to perform arithmetic calculations, compare values, 
 
 `Arithmetic operators` perform mathematical operations on operands, such as addition, subtraction, multiplication, division, and modulus.
 
-![alt text](image.jpg)
+![ArithmeticOps](CS.ArithmeticOperators.png)
 
 `Relational operators` facilitate comparisons between two values, returning true or false based on equality, inequality, or magnitude.  
-![alt text](image.jpg)
+![RelationalOps](CS.RelationalOperators.png)
 
 `Logical operators` combine or negate conditions, including AND, OR, and NOT operations.  
-![alt text](image.jpg)
+![LogicalOps](CS.LogicalOperators.png)
 
 `Bitwise operators` operate at the bit level, performing operations like AND, OR, XOR, and complement.  
-![alt text](image.jpg)
+![BitwiseOps](CS.BitwiseOperators.png)
 
 `Assignment operators` assign values to variables, offering shorthand methods for operations like addition, subtraction, and bitwise operations.  
-![alt text](image.jpg)
+![AssignmentOps](CS.AssignmentOperators.png)
 
 Finally, the `conditional operator` is a ternary operator that returns one of two values based on the evaluation of a Boolean expression.  
 
