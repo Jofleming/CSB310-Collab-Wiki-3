@@ -1,3 +1,22 @@
+Team Wood:
+
+Edale Miguel - Question 1 - 3
+Mycole Brown - Question 4 - 6
+Jordan Fleming - Question 7 - 8
+
+**Collaborative Wiki 3 - Programming Language Deep Dive**
+
+Questions:
+
+1. Data Types (Chapter 6)
+2. Expressions (Chapter 7)
+3. Assignment Statements (Chapter 7)
+4. Statement-Level Control Structures (Chapter 8)
+5. Subprograms (Chapter 9 and 10)
+6. Abstract Data Types and Encapsulation Concepts (if there are any) (Chapter 11)
+7. Object-Oriented Programming (Chapter 12)
+8. Exception Handling and Event Handling (Chapter 14)
+
 # C#
 
 C# (pronounced "C-sharp") is a modern, versatile programming language developed by Microsoft. It was introduced in the early 2000s as part of the .NET framework. C# is designed to be simple, powerful, and easy to use, making it a popular choice for developing a wide range of applications, from web and mobile apps to desktop software and games.
@@ -155,7 +174,38 @@ Example:
     Console.WriteLine($"The number {number} is {result}.");
 ```
 
-Understanding these fundamental concepts is essential for proficient development in C# and lays the groundwork for creating robust and efficient software solutions. 
+Understanding these fundamental concepts is crucial for proficient  development in C# and lays the foundation for creating robust and efficient software solutions.
+
+A thorough understanding of statement-level control structures, subprograms, abstract data types, and encapsulation is essential for mastering C#.
+
+## Statement-Level Control Structures
+In C#, statement-level control structures are the backbone of any program, because they guide the flow of execution based on certain conditions and loops. Conditional statements like if, else if, else, and switch help in making decisions within the code. The if statement checks a condition and executes a block of code if that condition is true. For more complex scenarios, else if and else extend this logic. The switch statement simplifies the process of evaluating a single variable against many possible values, offering a cleaner alternative to multiple if-else statements.
+
+Loops are another crucial control structure in C#. The for loop is used when the number of iterations is known ahead of time. On the other hand, the while loop continues to execute as long as its condition remains true, which is useful when the number of iterations isn't predetermined. The do-while loop makes sure that the code block runs at least once before checking the condition. The foreach loop is specifically designed for iterating over collections, making it straightforward to access each element in an array or list.
+
+These control structures make C# a flexible and powerful language, and help it to handle various programming tasks efficiently.
+
+## Subprograms
+Subprograms, methods, functions, are essential components of C# that allow for modular and reusable code. A method in C# is a block of code designed to perform a specific task. Methods help break down complex problems into smaller, manageable parts, promoting code reuse and maintainability. Each and every method has a name, a return type, and a set of parameters. The return type tells us the type of value the method returns, and void means it doesn't return any value. Parameters allow methods to accept input values, enabling them to perform operations based on those inputs.
+
+C# is fine with method overloading, which allows multiple methods to have the same name but different parameter lists. This feature enhances flexibility and readability, allowing methods to handle various types of inputs without requiring different names.
+
+Anonymous methods and lambda expressions are also supported in C#. These features allow for the definition of inline methods, which are super useful with delegates and events, where concise method definitions are needed.
+
+Subprograms in C# improve code organization and readability, making it easier to test and debug by isolating specific tasks within methods.
+
+## Abstract Data Types and Encapsulation
+Abstract data types (ADTs) and encapsulation are key principles of object-oriented programming (OOP) in C#. An abstract data type is a model for a certain kind of data structure that specifies the type of data stored, the operations that can be performed, and the constraints on those operations. In C#, ADTs are implemented using classes and interfaces. A class defines the data and behavior of an object, while an interface is specifically a contract that classes can implement.
+
+Encapsulation involves bundling data (fields) and methods (functions) that operate on the data into a single unit, or class, and restricting access to some of the object's components. This is achieved through access modifiers like public, private, protected, and internal, which control the visibility of class members. Encapsulation helps protect the internal state of an object and prevents external interference.
+
+Properties in C# support encapsulation by providing a way to read and write the values of private fields through public methods. Properties allow controlled access to the fields, a lot of the time including validation logic that's inside of get and set accessors.
+
+Inheritance and polymorphism are also really integral to C#'s way of having ADTs and encapsulation. Inheritance allows a class to inherit members from a base class, promoting code reuse and creating a hierarchical relationship. Polymorphism lets methods operate differently based on the object that invokes them, allowing for more flexible and dynamic code.
+
+These concepts are crucial and fundamental to building complex software systems that are hardy and easy to manage.
+C# is a really powerful and versatile programming language, has many great features for developing a wide range of applications. Its statement-level control structures give us precise control over program flow, while subprograms give us modular and reusable code. Abstract data types and encapsulation concepts are central to C#'s object-oriented approach, promoting well-structured and maintainable software. Understanding and effectively using these aspects of C# is essential for any programmer looking to use the full suite of this language's abilities.
+
 
 ## OOP in C#
 
@@ -163,18 +213,7 @@ C# fully embraces object-oriented programming (OOP) concepts. OOP is a programmi
 
 ### Core Principles of OOP in C#
 
-**Classes:** Classes act as blueprints or templates that define the properties (attributes) and methods (functions) that objects of that class will possess. You can create custom classes to represent specific entities in your program.
-
-**Objects:** Objects are instances of a class. They hold the actual data (property values) and carry out the defined behaviors (methods) associated with the class.  Imagine objects as individual entities based on the class template.
-
-**Inheritance:** Inheritance allows you to create new classes (derived classes) that inherit properties and methods from existing classes (base classes). This promotes code reuse and enables the creation of class hierarchies with specialized functionalities.
-
-**Polymorphism:** Polymorphism allows objects of different classes to respond differently to the same method call. This flexibility enables you to write generic code that can work with various object types without modifying the core logic.
-
-**Encapsulation:** Encapsulation promotes data protection by bundling properties and methods within a class. You can control access to these elements using access modifiers (public, private, protected) to ensure data integrity and prevent unintended modifications.
-
-**Abstraction:** Abstraction focuses on exposing essential functionalities while hiding implementation details. This allows you to create user-friendly interfaces that define what objects can do without revealing the underlying complexities of how they achieve it.
-
+`Classes` act as blueprints or templates that define the properties (attributes) and methods (functions) that objects of that class will possess. You can create custom classes to represent specific entities in your program. `Objects` are instances of a class. They hold the actual data (property values) and carry out the defined behaviors (methods) associated with the class. Imagine objects as individual entities based on the class template. `Inheritance` allows you to create new classes (derived classes) that inherit properties and methods from existing classes (base classes). This promotes code reuse and enables the creation of class hierarchies with specialized functionalities. `Polymorphism` allows objects of different classes to respond differently to the same method call. This flexibility enables you to write generic code that can work with various object types without modifying the core logic. `Encapsulation` promotes data protection by bundling properties and methods within a class. You can control access to these elements using access modifiers (public, private, protected) to ensure data integrity and prevent unintended modifications. `Abstraction` focuses on exposing essential functionalities while hiding implementation details. This allows you to create user-friendly interfaces that define what objects can do without revealing the underlying complexities of how they achieve it.
 ### Benefits of Using OOP in C#
 
 **Code Reusability:** By creating reusable classes and leveraging inheritance, you can avoid writing repetitive code and promote code maintainability.
@@ -273,15 +312,7 @@ The finally block (if included) would execute even if an exception is thrown. Re
 
 ### Event Handling
 
-Event handling is a powerful mechanism for communication between objects. It allows objects to notify other objects (subscribers or listeners) when specific events occur. This promotes loose coupling and modularity in your code.
-
-**Events** are special member declarations within a class that signal the occurrence of an event. They typically follow the naming convention EventName (e.g., ButtonClicked).
-
-**Delegates** are object references that point to methods capable of handling an event. You can define delegate types to specify the signature (parameters and return type) of methods that can subscribe to an event.
-
-Methods that subscribe to some event and are invoked when the event is raised are called **event handlers**. They typically receive information about the event through arguments passed by the publisher (object raising the event).
-
-When an event occurs within an object, it raises the event by invoking the delegate associated with the event. This triggers the execution of all subscribed event handlers.
+Event handling is a powerful mechanism for communication between objects, allowing objects to notify other objects (subscribers or listeners) when specific events occur. This promotes loose coupling and modularity in your code.`Events` are special member declarations within a class that signal the occurrence of an event, typically following the naming convention EventName (e.g., ButtonClicked). `Delegates` are object references that point to methods capable of handling an event, with delegate types defined to specify the signature (parameters and return type) of methods that can subscribe to an event. Methods that subscribe to an event and are invoked when the event is raised are called `event handlers`, which typically receive information about the event through arguments passed by the publisher (the object raising the event). When an event occurs within an object, it raises the event by invoking the delegate associated with the event, triggering the execution of all subscribed event handlers.
 
 Here's another example this time of event handling:
 
@@ -315,37 +346,6 @@ In the above example:
 
 The Button class defines a Clicked event and a ClickedEventHandler delegate to specify the method signature for event handlers. The OnClick method raises the Clicked event by invoking the Clicked delegate. The Form class creates a Button object and subscribes to its Clicked event using the += operator. When the button is clicked (simulated in OnClick), the ButtonClicked event handler defined in the Form class is executed. By effectively utilizing exception handling and event handling, you can build more robust, maintainable, and responsive C# applications. These mechanisms enable you to manage errors gracefully, coordinate communication between objects, and create loosely coupled and modular systems.
 
-Understanding statement-level control structures, subprograms, and abstract data types and encapsulation concepts is crucial to having a deep understanding of C#.
-
-## Statement-Level Control Structures
-In C#, statement-level control structures are the backbone of any program, because they guide the flow of execution based on certain conditions and loops. Conditional statements like if, else if, else, and switch help in making decisions within the code. The if statement checks a condition and executes a block of code if that condition is true. For more complex scenarios, else if and else extend this logic. The switch statement simplifies the process of evaluating a single variable against many possible values, offering a cleaner alternative to multiple if-else statements.
-
-Loops are another crucial control structure in C#. The for loop is used when the number of iterations is known ahead of time. On the other hand, the while loop continues to execute as long as its condition remains true, which is useful when the number of iterations isn't predetermined. The do-while loop makes sure that the code block runs at least once before checking the condition. The foreach loop is specifically designed for iterating over collections, making it straightforward to access each element in an array or list.
-
-These control structures make C# a flexible and powerful language, and help it to handle various programming tasks efficiently.
-
-## Subprograms
-Subprograms, methods, functions, are essential components of C# that allow for modular and reusable code. A method in C# is a block of code designed to perform a specific task. Methods help break down complex problems into smaller, manageable parts, promoting code reuse and maintainability. Each and every method has a name, a return type, and a set of parameters. The return type tells us the type of value the method returns, and void means it doesn't return any value. Parameters allow methods to accept input values, enabling them to perform operations based on those inputs.
-
-C# is fine with method overloading, which allows multiple methods to have the same name but different parameter lists. This feature enhances flexibility and readability, allowing methods to handle various types of inputs without requiring different names.
-
-Anonymous methods and lambda expressions are also supported in C#. These features allow for the definition of inline methods, which are super useful with delegates and events, where concise method definitions are needed.
-
-Subprograms in C# improve code organization and readability, making it easier to test and debug by isolating specific tasks within methods.
-
-## Abstract Data Types and Encapsulation
-Abstract data types (ADTs) and encapsulation are key principles of object-oriented programming (OOP) in C#. An abstract data type is a model for a certain kind of data structure that specifies the type of data stored, the operations that can be performed, and the constraints on those operations. In C#, ADTs are implemented using classes and interfaces. A class defines the data and behavior of an object, while an interface is specifically a contract that classes can implement.
-
-Encapsulation involves bundling data (fields) and methods (functions) that operate on the data into a single unit, or class, and restricting access to some of the object's components. This is achieved through access modifiers like public, private, protected, and internal, which control the visibility of class members. Encapsulation helps protect the internal state of an object and prevents external interference.
-
-Properties in C# support encapsulation by providing a way to read and write the values of private fields through public methods. Properties allow controlled access to the fields, a lot of the time including validation logic that's inside of get and set accessors.
-
-Inheritance and polymorphism are also really integral to C#'s way of having ADTs and encapsulation. Inheritance allows a class to inherit members from a base class, promoting code reuse and creating a hierarchical relationship. Polymorphism lets methods operate differently based on the object that invokes them, allowing for more flexible and dynamic code.
-
-These concepts are crucial and fundamental to building complex software systems that are hardy and easy to manage.
-C# is a really powerful and versatile programming language, has many great features for developing a wide range of applications. Its statement-level control structures give us precise control over program flow, while subprograms give us modular and reusable code. Abstract data types and encapsulation concepts are central to C#'s object-oriented approach, promoting well-structured and maintainable software. Understanding and effectively using these aspects of C# is essential for any programmer looking to use the full suite of this language's abilities.
-
-## Conclusion
 C# is a powerful and flexible language suitable for a wide variety of programming tasks. Whether you're building web applications, desktop software, or games, C# provides the tools and features to help you create robust and efficient applications. By learning C#, you'll gain a valuable skill that is in high demand in the software development industry.
 
 
