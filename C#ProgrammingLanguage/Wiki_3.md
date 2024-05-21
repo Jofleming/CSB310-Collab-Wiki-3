@@ -18,32 +18,15 @@ C# (pronounced "C-sharp") is a modern, versatile programming language developed 
 ```
 The `using System`; directive imports the System namespace, which includes basic classes like Console. The `namespace keyword` declares a namespace to organize your code. The `class keyword` defines a class named Program. The `Main method` is the entry point of a C# application, and the `Console.WriteLine method` prints "Hello, World!" to the console.
 
+## Data Types
 
 C# programming language encompasses a rich variety of data types, expressions, and assignment statements, each serving a distinct purpose in software development.
-
-## Data Types
-
-Data types in C# are categorized into three primary groups: `Value Data Types`, `Reference Data Types`, and `Pointer Data Types`.
-
-Value data types directly store variable values in memory and can accommodate both signed and unsigned literals. Signed integral types can handle negative and positive values, while unsigned types solely accommodate positive numbers. Integral types span 8-bit, 16-bit, 32-bit, and 64-bit values. Floating-point types, such as float and double, cater to decimal point values, with float representing 32-bit single-precision and double representing 64-bit double-precision floating point numbers. Additionally, the decimal type is adept at financial calculations, boasting 128-bit precision. Character types represent UTF-16 code units, and boolean types solely accept true or false values.
-
-![C#ProgrammingLanguage/CS.ValueDataType.png]C#ProgrammingLanguage/CS.ValueDataType.png)
-
-Reference data types, in contrast, store memory addresses rather than values directly. Examples include strings, which represent sequences of Unicode characters, and objects, which serve as the base class for all data types in C#.
-
-Example:
-
-# C#
-
-C# programming language encompasses a rich variety of data types, expressions, and assignment statements, each serving a distinct purpose in software development. 
-
-## Data Types
 
 Data types in C# are categorized into three primary groups: `Value Data Types`, `Reference Data Types`, and `Pointer Data Types`.  
 
 Value data types directly store variable values in memory and can accommodate both signed and unsigned literals. Signed integral types can handle negative and positive values, while unsigned types solely accommodate positive numbers. Integral types span 8-bit, 16-bit, 32-bit, and 64-bit values. Floating-point types, such as float and double, cater to decimal point values, with float representing 32-bit single-precision and double representing 64-bit double-precision floating point numbers. Additionally, the decimal type is adept at financial calculations, boasting 128-bit precision. Character types represent UTF-16 code units, and boolean types solely accept true or false values. 
 
-![C#ProgrammingLanguage/CS.ValueDataType.png](C#ProgrammingLanguage/CS.ValueDataType.png)
+![ValueDataType](CS.ValueDataType.png)
 
 Reference data types, in contrast, store memory addresses rather than values directly. Examples include strings, which represent sequences of Unicode characters, and objects, which serve as the base class for all data types in C#.  
 
@@ -70,7 +53,6 @@ Example:
 ```
 
 ## Expressions
-
 
 Expressions in C# facilitate computations that yield values. They include Constant Expressions, Variable Expressions, Arithmetic Expressions, Relational Expressions, Logical Expressions, Bitwise Expressions, Assignment Expressions, Method Call Expressions, and Conditional Expressions. Each type of expression serves a specific computational purpose, from simple literal values to complex method calls.
 
@@ -135,13 +117,11 @@ Examples:
     Console.WriteLine(message);
 ```
 
-
 Understanding and effectively utilizing expressions are crucial for performing calculations, making decisions, and manipulating data within a program.
 
 ## Operators
 
 Operators enable developers to perform arithmetic calculations, compare values, combine conditions, manipulate binary data, and assign values to variables efficiently. Operators in C# are symbols or keywords that perform operations on operands. They define how operands are manipulated to produce a result. C# operators can be categorized based on their functionality and the number of operands they take. Functionally, they include Arithmetic Operators, Relational Operators, Logical Operators, Bitwise Operators, Assignment Operators, and the Conditional Operator. Additionally, they are classified based on the number of operands they take, including Unary Operators, Binary Operators, and Ternary Operators. Unary operators take one operand to perform the operation, binary operators take two operands, and the ternary operator takes three operands.
-
 
 `Arithmetic operators` perform mathematical operations on operands, such as addition, subtraction, multiplication, division, and modulus.
 
@@ -158,7 +138,6 @@ Operators enable developers to perform arithmetic calculations, compare values, 
 
 `Assignment operators` assign values to variables, offering shorthand methods for operations like addition, subtraction, and bitwise operations.  
 ![AssignmentOps](CS.AssignmentOperators.png)
-
 
 Finally, the `conditional operator` is a ternary operator that returns one of two values based on the evaluation of a Boolean expression.
 
@@ -177,10 +156,6 @@ Example:
 ```
 
 Understanding these fundamental concepts is essential for proficient development in C# and lays the groundwork for creating robust and efficient software solutions. 
-
-
-## Conclusion
-C# is a powerful and flexible language suitable for a wide variety of programming tasks. Whether you're building web applications, desktop software, or games, C# provides the tools and features to help you create robust and efficient applications. By learning C#, you'll gain a valuable skill that is in high demand in the software development industry.
 
 ## OOP in C#
 
@@ -211,6 +186,7 @@ C# fully embraces object-oriented programming (OOP) concepts. OOP is a programmi
 **Real-World Modeling:** OOP allows you to model real-world entities and their relationships, making the code more intuitive and easier to reason about.
 
 Getting Started with OOP in C#
+
 Here's a basic example to illustrate OOP concepts in C#:
 
 ```C#
@@ -339,8 +315,7 @@ In the above example:
 
 The Button class defines a Clicked event and a ClickedEventHandler delegate to specify the method signature for event handlers. The OnClick method raises the Clicked event by invoking the Clicked delegate. The Form class creates a Button object and subscribes to its Clicked event using the += operator. When the button is clicked (simulated in OnClick), the ButtonClicked event handler defined in the Form class is executed. By effectively utilizing exception handling and event handling, you can build more robust, maintainable, and responsive C# applications. These mechanisms enable you to manage errors gracefully, coordinate communication between objects, and create loosely coupled and modular systems.
 
-# Exploring Statement Level Control, Subprograms, and Abstract Data Types in CSharp by Mycole Brown#
-C# is a dynamic and powerful programming language that was made by Microsoft, mainly for the .NET framework. It was designed to be simple, modern, and object-oriented, it provides a solid foundation for creating a super wide range of applications, from desktop to web to mobile. Understanding statement-level control structures, subprograms, and abstract data types and encapsulation concepts is crucial to having a deep understanding of C#.
+Understanding statement-level control structures, subprograms, and abstract data types and encapsulation concepts is crucial to having a deep understanding of C#.
 
 ## Statement-Level Control Structures
 In C#, statement-level control structures are the backbone of any program, because they guide the flow of execution based on certain conditions and loops. Conditional statements like if, else if, else, and switch help in making decisions within the code. The if statement checks a condition and executes a block of code if that condition is true. For more complex scenarios, else if and else extend this logic. The switch statement simplifies the process of evaluating a single variable against many possible values, offering a cleaner alternative to multiple if-else statements.
@@ -370,5 +345,7 @@ Inheritance and polymorphism are also really integral to C#'s way of having ADTs
 These concepts are crucial and fundamental to building complex software systems that are hardy and easy to manage.
 C# is a really powerful and versatile programming language, has many great features for developing a wide range of applications. Its statement-level control structures give us precise control over program flow, while subprograms give us modular and reusable code. Abstract data types and encapsulation concepts are central to C#'s object-oriented approach, promoting well-structured and maintainable software. Understanding and effectively using these aspects of C# is essential for any programmer looking to use the full suite of this language's abilities.
 
+## Conclusion
+C# is a powerful and flexible language suitable for a wide variety of programming tasks. Whether you're building web applications, desktop software, or games, C# provides the tools and features to help you create robust and efficient applications. By learning C#, you'll gain a valuable skill that is in high demand in the software development industry.
 
 
