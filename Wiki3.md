@@ -60,7 +60,6 @@ Example:
     Console.WriteLine(dog2.Age); // 6
 ```
 
-
 Pointers, another category, also store memory addresses. The ampersand (&) symbol serves as the Address Operator, determining the address of a variable, while the asterisk (*) symbol functions as the Indirection Operator, accessing the value stored at an address.
 
 Example:
@@ -76,7 +75,6 @@ Example:
 Expressions in C# facilitate computations that yield values. They include Constant Expressions, Variable Expressions, Arithmetic Expressions, Relational Expressions, Logical Expressions, Bitwise Expressions, Assignment Expressions, Method Call Expressions, and Conditional Expressions. Each type of expression serves a specific computational purpose, from simple literal values to complex method calls.
 
 Expressions in C# are combinations of values, variables, operators, and method calls that evaluate to a single value. They represent computations or operations that produce a result. `Constant expressions` are simple values like literals, while `variable expressions` are represented by variables themselves. `Arithmetic expressions` involve arithmetic operations, `relational expressions` are used for comparison, 'logical expressions' involve logical operators, and `bitwise expressions` involve bitwise operators. `Assignment expressions` assign a value to a variable, `method call expressions` involve calling a method, and `conditional expressions` utilize the ternary conditional operator.
-
 
 Examples:
 ```c#
